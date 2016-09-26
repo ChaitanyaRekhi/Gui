@@ -27,7 +27,7 @@ public class database {
 	
 	
 	
-	static void calculate() throws Exception{
+	 public static void calculate() throws Exception{
 
 		Class.forName("com.mysql.jdbc.Driver");
 		
@@ -189,7 +189,7 @@ public class database {
 	    
 	        //return arr;
 	        
-	       System.out.println(arr[3][2]); 
+	       //System.out.println(arr[3][2]); 
 	    }catch (Exception e) {
 	    	
     	  //return null;

@@ -21,8 +21,7 @@ import javax.swing.JTree;
 import java.awt.Font;
 import javax.swing.event.AncestorListener;
 import javax.swing.event.AncestorEvent;
-
-public class Frame1 {
+public class User_interface {
 
 	private JTextField textField;
 	private JTextField textField_1;
@@ -36,7 +35,7 @@ public class Frame1 {
 	JFrame frame = new JFrame();
 	//private JText
 	
-	public static void main(String[] args) {
+	public static void gui() {
 		
 		
 	//	database databaseObject=new database();
@@ -46,7 +45,7 @@ public class Frame1 {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Frame1 window = new Frame1();
+					User_interface window = new User_interface();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -56,7 +55,7 @@ public class Frame1 {
 	}
 
 	
-	public Frame1() {
+	public User_interface() {
 		initialize();
 	}
 
