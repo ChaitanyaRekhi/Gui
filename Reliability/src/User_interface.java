@@ -133,9 +133,9 @@ public class User_interface {
 				}
 				
 				if(isSet){
-					 subUnit = "no";
+					 subUnit = "0";
 				}
-				else{ subUnit = "yes";}
+				else{ subUnit = "1";}
 				
 
 				
@@ -245,6 +245,7 @@ public class User_interface {
 				try {
 					database.calculate();
 					database.getValues();
+
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
